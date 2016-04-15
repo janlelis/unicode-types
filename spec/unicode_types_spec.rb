@@ -38,6 +38,7 @@ describe Unicode::Types do
 
     it "will return Reserved for unassigned codepoints" do
       assert_equal "Reserved", Unicode::Types.type("\u{10c50}")
+      assert_equal "Reserved", Unicode::Types.type("\u{c03a6}")
     end
   end
 
