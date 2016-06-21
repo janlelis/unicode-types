@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.name          = "unicode-types"
   gem.version       = Unicode::Types::VERSION
   gem.summary       = "Determine the basic type of codepoints."
-  gem.description   = "[Unicode version: #{Unicode::Types::UNICODE_VERSION}] Determine the basic type of codepoints (Graphic, Format, Control, Private-use, Surrogate, Noncharacter, Reserved)"
+  gem.description   = "[Unicode #{Unicode::Types::UNICODE_VERSION}] Determine the basic type of codepoints (Graphic, Format, Control, Private-use, Surrogate, Noncharacter, Reserved)"
   gem.authors       = ["Jan Lelis"]
   gem.email         = ["mail@janlelis.de"]
   gem.homepage      = "https://github.com/janlelis/unicode-types"
