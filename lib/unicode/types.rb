@@ -14,7 +14,7 @@ module Unicode
 
     def self.type(char)
       require_relative 'types/index' unless defined? ::Unicode::Types::INDEX
-      codepoint_depth_offset = char.unpack("U")[0] or
+      codepoint_depth_offset = char.ord or
           raise(ArgumentError, "Unicode::Types.type must be given a valid char")
       index_or_value = INDEX[:TYPES]
       [0x10000, 0x1000, 0x100, 0x10].each{ |depth|
