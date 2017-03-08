@@ -1,4 +1,4 @@
-# Unicode::Types [![[version]](https://badge.fury.io/rb/unicode-types.svg)](http://badge.fury.io/rb/unicode-types)  [![[travis]](https://travis-ci.org/janlelis/unicode-types.png)](https://travis-ci.org/janlelis/unicode-types)
+# Unicode::Types [![[version]](https://badge.fury.io/rb/unicode-types.svg)](http://badge.fury.io/rb/unicode-types)  [![[travis]](https://travis-ci.org/janlelis/unicode-types.svg)](https://travis-ci.org/janlelis/unicode-types)
 
 Determine the basic type of codepoints. This can be one of:
 
@@ -12,7 +12,7 @@ Determine the basic type of codepoints. This can be one of:
 
 Unicode version: **9.0.0**
 
-Supported Rubies: **2.3**, **2.2**, **2.1**
+Supported Rubies: **2.4**, **2.3**, **2.2**, **2.1**
 
 ## Gemfile
 
