@@ -40,6 +40,10 @@ describe Unicode::Types do
       assert_equal "Reserved", Unicode::Types.type("\u{10c50}")
       assert_equal "Reserved", Unicode::Types.type("\u{c03a6}")
     end
+
+    it "will work with invalid surrogate values" do
+      assert_equal "Surrogate", Unicode::Types.type("\xED\xA0\x80")
+    end
   end
 
   describe ".names" do

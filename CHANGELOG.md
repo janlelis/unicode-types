@@ -1,8 +1,12 @@
 ## CHANGELOG
 
+### 1.1.2
+
+* Fix that surrogates were detected in UTF-8 (regression of 1.1.1)
+
 ### 1.1.1
 
-* Fix bug that prevented non-UTF-8 encodings from workin
+* Fix bug that prevented non-UTF-8 encodings from working
 
 ### 1.1.0
 
