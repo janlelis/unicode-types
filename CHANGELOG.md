@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.2.0
+
+* Unicode 10
+
 ### 1.1.2
 
 * Fix that surrogates were detected in UTF-8 (regression of 1.1.1)
