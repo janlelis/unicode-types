@@ -10,7 +10,7 @@ Determine the basic type of codepoints. This can be one of:
 - Noncharacter
 - Reserved
 
-Unicode version: **9.0.0**
+Unicode version: **10.0.0**
 
 Supported Rubies: **2.4**, **2.3**, **2.2**, **2.1**
 
