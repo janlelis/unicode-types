@@ -12,9 +12,9 @@ Determine the basic type of codepoints. This can be one of:
 
 Unicode version: **10.0.0**
 
-Supported Rubies: **2.5**, **2.4**, **2.3**, **2.2**
+Supported Rubies: **2.5**, **2.4**, **2.3**
 
-Old Rubies that might still work: **2.1**, **2.0**
+Old Rubies that might still work: **2.2**, **2.1**, **2.0**
 
 ## Gemfile
 
@@ -30,7 +30,7 @@ require "unicode/types"
 # All general types of a string
 Unicode::Types.types("A\tb") # => ["Control", "Graphic"]
 
-# Also aliased as .of 
+# Also aliased as .of
 Unicode::Types.of("\u{FFFFF}") # => ["Noncharacter"]
 
 # Single codepoint
