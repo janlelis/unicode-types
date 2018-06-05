@@ -10,7 +10,7 @@ Determine the basic type of codepoints. This can be one of:
 - Noncharacter
 - Reserved
 
-Unicode version: **10.0.0**
+Unicode version: **11.0.0**
 
 Supported Rubies: **2.5**, **2.4**, **2.3**
 
@@ -43,6 +43,6 @@ See [unicode-x](https://github.com/janlelis/unicode-x) for more Unicode related 
 
 ## MIT License
 
-- Copyright (C) 2016-2017 Jan Lelis <http://janlelis.com>. Released under the MIT license.
+- Copyright (C) 2016-2018 Jan Lelis <http://janlelis.com>. Released under the MIT license.
 - Unicode data: http://www.unicode.org/copyright.html#Exhibit1
 
