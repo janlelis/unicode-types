@@ -12,9 +12,9 @@ Determine the basic type of codepoints. This can be one of:
 
 Unicode version: **11.0.0**
 
-Supported Rubies: **2.6**, **2.5**, **2.4**, **2.3**
+Supported Rubies: **2.6**, **2.5**, **2.4**
 
-Old Rubies that might still work: **2.2**, **2.1**, **2.0**
+Old Rubies that might still work: **2.3**, **2.2**, **2.1**, **2.0**
 
 ## Gemfile
 
