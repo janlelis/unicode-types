@@ -5,10 +5,10 @@ require File.dirname(__FILE__) + "/lib/unicode/types/constants"
 Gem::Specification.new do |gem|
   gem.name          = "unicode-types"
   gem.version       = Unicode::Types::VERSION
-  gem.summary       = "Determine the basic type of codepoints."
-  gem.description   = "[Unicode #{Unicode::Types::UNICODE_VERSION}] Determine the basic type of codepoints (Graphic, Format, Control, Private-use, Surrogate, Noncharacter, Reserved)"
+  gem.summary       = "Determines the very basic type of a code point"
+  gem.description   = "[Unicode #{Unicode::Types::UNICODE_VERSION}] Determines the very basic type of codepoints (one of: Graphic, Format, Control, Private-use, Surrogate, Noncharacter, Reserved)"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = ["mail@janlelis.de"]
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/unicode-types"
   gem.license       = "MIT"
 
@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.required_ruby_version = "~> 2.0"
+  gem.required_ruby_version = ">= 2.0"
 end
