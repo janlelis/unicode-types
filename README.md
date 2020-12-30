@@ -1,4 +1,4 @@
-# Unicode::Types [![[version]](https://badge.fury.io/rb/unicode-types.svg)](https://badge.fury.io/rb/unicode-types)  [![[travis]](https://travis-ci.org/janlelis/unicode-types.svg)](https://travis-ci.org/janlelis/unicode-types)
+# Unicode::Types [![[version]](https://badge.fury.io/rb/unicode-types.svg)](https://badge.fury.io/rb/unicode-types)  [![[ci]](https://github.com/janlelis/unicode-types/workflows/Test/badge.svg)](https://github.com/janlelis/unicode-types/actions?query=workflow%3ATest)
 
 Determine the basic type of codepoints. This can be one of:
 
