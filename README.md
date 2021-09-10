@@ -10,7 +10,7 @@ Determine the basic type of codepoints. This can be one of:
 - Noncharacter
 - Reserved
 
-Unicode version: **13.0.0** (March 2020)
+Unicode version: **14.0.0** (September 2021)
 
 Supported Rubies: **3.0**, **2.7**
 
