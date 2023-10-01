@@ -12,9 +12,9 @@ Determine the basic type of codepoints. This can be one of:
 
 Unicode version: **15.1.0** (September 2023)
 
-Supported Rubies: **3.1**, **3.0**, **2.7**
+Supported Rubies: **3.2**, **3.1**, **3.0**
 
-Old Rubies that might still work: **2.6**, **2.5**, **2.4**, **2.3**, **2.2**, **2.1**, **2.0**
+Old Rubies that might still work: **2.X**
 
 ## Gemfile
 
