@@ -17,7 +17,7 @@ describe Unicode::Types do
     end 
 
     it "will call .type for every character" do
-      mocked_method = MiniTest::Mock.new
+      mocked_method = Minitest::Mock.new
       mocked_method.expect :call, "first type",  ["A"]
       mocked_method.expect :call, "second type", ["2"]
       Unicode::Types.stub :type, mocked_method do
