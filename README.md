@@ -10,7 +10,7 @@ Determine the basic type of codepoints. This can be one of:
 - Noncharacter
 - Reserved
 
-Unicode version: **15.0.0** (September 2022)
+Unicode version: **15.1.0** (September 2023)
 
 Supported Rubies: **3.1**, **3.0**, **2.7**
 
