@@ -1,4 +1,5 @@
 require_relative "../lib/unicode/types"
+require "minitest/mock"
 require "minitest/autorun"
 
 describe Unicode::Types do
