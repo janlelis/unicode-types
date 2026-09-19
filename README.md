@@ -10,7 +10,7 @@ Determine the basic type of codepoints. This can be one of:
 - Noncharacter
 - Reserved
 
-Unicode version: **17.0.0** (September 2025)
+Unicode version: **18.0.0** (September 2026)
 
 ## Gemfile
 
